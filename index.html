@@ -16,30 +16,37 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
         integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
 
 </head>
 
-<body> <!--  none потом убрать можно -->
-    <header class="header ">
+<body>
+    <header class="header">
         <div class="container">
             <div class="header__top">
                 <nav class="nav">
                     <div class="nav__logo">
                         <h2 class="logo"><a href="#">GoTrieop</a></h2>
                     </div>
-                    <ul class="nav__list">
+                    <ul class="nav__list nav__list--header">
                         <li><a href="#" class="active">Home</a></li>
                         <li><a href="#">Services</a></li>
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">Contack</a></li>
                     </ul>
-                    <ul class="nav__login">
+                    <ul class="nav__login nav__login--header">
                         <li><a href="#">Sing up</a></li>
-                        <li><a href="#" class="btn">Login</a></li>
+                        <li><a href="#" class="btn btn--login">Login</a></li>
                     </ul>
+
+                    <button type="button" class="nav__toggle">
+                        <div class="menu-icon-wrapper">
+                            <div class="menu-icon"></div>
+                        </div>
+                    </button>
                 </nav>
             </div>
+
             <div class="header__row">
                 <div class="header__content">
                     <div class="header__badge">
@@ -53,7 +60,7 @@
                     <div class="header__text">
                         <p>explore the beauty of god's earth in a beautiful forest and have fun</p>
                     </div>
-                    <a href="#" class="header__btn">Exsplore Now</a>
+                    <a href="#" class="btn">Exsplore Now</a>
                 </div>
                 <div class="header__img">
                     <img src="./img/header-img.png" alt="woman">
@@ -63,10 +70,9 @@
     </header>
 
     <main>
-        <section class="destinations "> <!--  none потом убрать можно -->
+        <section class="destinations ">
             <div class="container-right">
                 <div class="destinations__row">
-
                     <div class="destinations__content">
                         <h2 class="destinations__title">
                             <span>Choice Of</span>
@@ -98,14 +104,14 @@
             </div>
         </section>
 
-        <sections class="costumers "> <!--  none потом убрать можно -->
+        <section class="customers">
             <div class="container">
-                <div class="costumers__row">
-                    <div class="costumers__img">
-                        <img src="./img/costumers.jpg" alt="Costumers">
+                <div class="customers__row">
+                    <div class="customers__img">
+                        <img src="./img/costumers.jpg" alt="Custumers">
                     </div>
-                    <div class="costumers__content">
-                        <h2 class="costumers__title">
+                    <div class="customers__content">
+                        <h2 class="customers__title">
                             What do customers say about us?
                         </h2>
                         <div class="review">
@@ -129,9 +135,9 @@
                     </div>
                 </div>
             </div>
-        </sections>
+        </section>
 
-        <section class="cta "> <!--  none потом убрать можно -->
+        <section class="cta ">
             <div class="container">
                 <div class="cta__plate">
                     <h2 class="cta__title">
@@ -166,7 +172,7 @@
 
     <footer class="footer">
         <div class="container">
-            <nav class="nav">
+            <nav class="nav nav--footer">
                 <div class="nav__logo">
                     <h2 class="logo logo--footer"><a href="#">GoTrieop</a></h2>
                 </div>
@@ -176,9 +182,9 @@
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Contack</a></li>
                 </ul>
-                <ul class="nav__login">
+                <ul class="nav__login nav__login--footer">
                     <li><a href="#">Sing up</a></li>
-                    <li><a href="#" class="btn">Login</a></li>
+                    <li><a href="#" class="btn btn--login">Login</a></li>
                 </ul>
             </nav>
         </div>
