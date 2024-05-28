@@ -396,8 +396,6 @@ body {
     border-radius: 60px;
 }
 
-.custumers__content {}
-
 .custumers__title {
     font-size: 45px;
     font-weight: 500;
@@ -425,8 +423,6 @@ body {
     overflow: hidden;
 }
 
-.review__client--desk {}
-
 .review__client--desk--name {
     font-size: 33px;
     font-weight: 500;
@@ -444,8 +440,6 @@ body {
     font-size: 22px;
     font-weight: 500;
 }
-
-.review__rating {}
 
 /****cta****/
 
@@ -957,16 +951,7 @@ body {
         flex-direction: column-reverse;
         row-gap: 30px;
     }
-}
 
-@media (max-width: 600px) {
-    .nav--footer {
-        flex-direction: column-reverse;
-        row-gap: 30px;
-    }
-}
-
-@media (max-width: 460px) {
     .customers__img img {
         max-width: 100%;
     }
@@ -990,9 +975,12 @@ body {
         row-gap: 15px;
         align-items: center;
     }
-}
 
-@media (max-width: 460px) {
+    .nav--footer {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+
     .nav--mobile .nav__toggle {
         top: 20px;
         right: 15px;
@@ -1003,3 +991,4 @@ body {
         row-gap: 20px;
     }
 }
+
